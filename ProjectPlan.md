@@ -1,0 +1,34 @@
+# Project: 225g Antweight Shuffler "Cool Name"
+
+## 1. Goals
+* **Goal:** Building a first version of a Combat Robot for the ROFLS-League until October 2026, followed by iterative improvements based on fight performance.
+* **Category:** Antweight Shuffler. Max. Weight: 225g (150g base weight + 50% Shuffler bonus).
+
+## 2. Technical Specifications (Target State)
+### Mechanics & Chassis
+* **Drive Mechanism:** Mechanical Shuffling/Walking Linkage (e.g., Klann or Jansen mechanism) driven by DC/Brushless motors to qualify for the 50% weight bonus.
+* **Weapon System:** Vertical Spinner, mounted at a 45° angle. Focused on a fixed, non-modular setup to keep the project's complexity manageable.
+* **Planned Materials:** Nylon (PA) for high-impact structural components (hydrated), TPU for armor/shock absorption, and potentially Carbon Fiber for the main chassis stiffening.
+* **Manufacturing:** In-house FDM printing via Bambu Lab P1S, external manufacturing services (PCBWay/JLCPCB) if custom metal parts or PCBs are required.
+
+### Electronics & Software
+* **Microcontroller:** Not defined yet (Requires research into small form-factor packages and hardware timers).
+* **Protocol / Radio:** ExpressLRS (ELRS) via RadioMaster Pocket. Receiver unit TBD.
+* **Programming Language (if required):** C.
+
+## 3. Regulatory Requirements (ROFLS Compliance)
+* **Failsafe:** Automatic shutdown of drive and weapon systems upon signal loss in less than 10 seconds (Target: < 2 seconds for advanced safety).
+* **Weapon Stop:** Autonomous deceleration of the weapon spinning mass to a complete stop in less than 30 seconds after spin-down command.
+* **Electrical Safety:** Highly visible Power-LED indicator. Mechanical switch or switch-mechanism allowed for the Antweight class.
+* **Mechanical Safety:** Dedicated physical locking pin (Weapon Lock) for the 45° spinner outside the arena.
+
+## 4. Modular Dev-Plan (Proof of Concepts)
+* [ ] **PoC 1: Mechanical Linkage Kinematics** (Testing a single leg mechanism for smooth operation, low friction, and grip).
+* [ ] **PoC 2: ELRS Signal Decoding & Failsafe Logic** (C implementation on a breadboard, tracking packet loss).
+* [ ] **PoC 3: Brushless Weapon Control & Active Brake** (Implementing the 30s stop rule safely via software/ESC).
+* [ ] **PoC 4: Enclosed Power & Electronics Integration** (Power management, voltage regulation, and wiring harness footprint).
+* [ ] **PoC 5: Integration Prototype v1** (Full chassis printed in cheap PLA to verify weight distribution and center of mass).
+
+## 5. Documentation 
+The whole Project gets Documented with a work journal and semantic summarys of the individual parts. This is a preperation of the IPA and a potential 
+showcase Project for future job-appliactions. 
