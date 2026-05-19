@@ -13,4 +13,4 @@ the protection of the XIAO and ELRS receiver.
 - Silicon Cable: 26AWG and 20AWG
 - 5V1 Z Diode
 - 2x 100$100\ \mu\text{F} / 25\text{ V}$ capacitors (parallel, had no 220)
-- 2s 550mAh LiPo Akku
+- 2s 550mAh LiPo Battery
