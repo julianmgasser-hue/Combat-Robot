@@ -31,3 +31,13 @@ instead of traditional wheels. After researching various walking linkages on You
   * **Print Optimization:** Designed geometries to print completely support-less. Slicing parameters adjusted to a minimum of 4 perimeters (wall lines) and 10% infill to maximize printing speed during the prototyping phase.
   * **Calculated Dynamics:** Operating at approx. 1400 RPM on a 2S LiPo configuration with an 8 mm eccentric stroke results in a theoretical velocity of $\approx 0.37 \text{ m/s}$ ($1.34 \text{ km/h}$). This delivers an optimized balance between drivability, mechanical high-torque control, and minimized chassis vibration.
 * **Current Status:** Prototype v3.1 is currently slicing/printing. Next step: physical assembly and hand-testing the 0.3 mm tolerance fitments under simulated motor loads.
+
+### Iteration 5: Physical Load Testing & Weight Benchmarking (v3.2)
+* **Approach:** Assembled the printed v3.2 components and conducted manual stress-testing to simulate real-world combat loads and structural compression.
+* **Results & Critical Vulnerabilities:**
+  * **Structural Deflection:** While the mechanism rotated flawlessly when loose, applying realistic chassis pressure caused the outer walls to deflect inward, causing immediate gear binding and binding of the eccentric cams. 
+  * **Weight Penalty:** A single drive module weighed in at 53g (excluding the motor). With a total weight limit of 225g for the entire robot, this iteration is drastically overweight.
+  * **Traction Issues:** Low-load testing indicated that the hard PLA feet lack sufficient mechanical grip on smooth arena floors at high stamp rates.
+* **Engineering Solutions & Action Plan:**
+  * **Parallelism:** Integrate M2 aluminum standoffs/spacers in the CAD model to mechanically lock the housing walls in a perfectly parallel orientation, eliminating deflection.
+  * **Mass Reduction:** Redesign the geometry for v4.0 with a target of 30% size reduction, minimizing wall thickness and removing non-critical structural mass.
