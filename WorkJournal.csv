@@ -7,3 +7,4 @@ Date;Category;Content;Time in Hours
 2026-05-26;Mechanics;Designed and printed shuffling prototype v3.0. identified 0.3mm tolerance sweet-spot and discovered dead-center flipping issues requiring synchronized gearing;2.00
 2026-05-27;Mechanics;Developed v3.1 using DFM principles. merged gears and eccentric cams into monolithic parts using Spur Gear FeatureScript and optimized sliced walls for shear resistance;3.00
 2026-05-30;Mechanics;Assembled and stress-tested prototype v3.2. identified housing deflection and weight issues (53g). tested N20 motors and mapped out upcoming weapon system integration timeline;4.00
+2026-06-01;Electronics;Installed hardened nozzle on Bambu Lab P1S and performed initial electronics testing by driving the new brushless motors via ESP32 microcontroller;2.00
