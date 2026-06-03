@@ -8,3 +8,5 @@ Date;Category;Content;Time in Hours
 2026-05-27;Mechanics;Developed v3.1 using DFM principles. merged gears and eccentric cams into monolithic parts using Spur Gear FeatureScript and optimized sliced walls for shear resistance;3.00
 2026-05-30;Mechanics;Assembled and stress-tested prototype v3.2. identified housing deflection and weight issues (53g). tested N20 motors and mapped out upcoming weapon system integration timeline;4.00
 2026-06-01;Electronics;Installed hardened nozzle on Bambu Lab P1S and performed initial electronics testing by driving the new brushless motors via ESP32 microcontroller;2.00
+2026-06-02;Mechanics;Developed a weaponblade and centered it's mass. Went over 3 iterations and tested each on my new BLDC motor;3.50
+2026-06-03;Mechanics;All remaining electronics arrived, i weighted them as a whole (98g). I continues with v4 of the shuffelingmechanism, which turned out to be only 12g;3.50
