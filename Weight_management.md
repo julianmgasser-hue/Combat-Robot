@@ -8,6 +8,10 @@ N20-Motor;9;2;18
 2s-Batterie;23;1;23
 BLDC-Motor;27;1;27
 ESC;22;1;22
-Blade;55;1;55
+Blade;22;1;22
+ELRS-Receiver;2;1;2
+XIAOEsp32s3;1;1;1
+StepDownConverter;1;1;1
+DRV8833;1;1;1
 
-Current total: 145g
+Current total: 120g
