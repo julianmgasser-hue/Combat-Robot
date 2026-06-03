@@ -41,3 +41,8 @@ instead of traditional wheels. After researching various walking linkages on You
 * **Engineering Solutions & Action Plan:**
   * **Parallelism:** Integrate M2 aluminum standoffs/spacers in the CAD model to mechanically lock the housing walls in a perfectly parallel orientation, eliminating deflection.
   * **Mass Reduction:** Redesign the geometry for v4.0 with a target of 30% size reduction, minimizing wall thickness and removing non-critical structural mass.
+
+### Iteration 6: Weight Reduction and learning from misstakes (v4)
+* **Weight** my focus nr. 1. i massively reduced the weight to 12g. I made the whole shuffler smaller, since i now have an idea, about how big the whole bot should be, i also added airgaps.
+* **Improovements** I implemented deadshafs out of PLA, to correct the problem i had with the previous iteration. I fixed the deadshafs with small m2 screws, who's weight was like 1g.
+* **Speciality** Because i was so desperate to loose weight, i switched from 4 feet to only 3, angeled at 120°. I hope this works well....
