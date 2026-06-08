@@ -30,8 +30,7 @@ instead of traditional wheels. After researching various walking linkages on You
   * **Integrated Component Geometry:** The spur gear, eccentric cam pin (8 mm stroke), and the rotation shaft were fused into a single 3D-printable component to eliminate loose fasteners.
   * **Print Optimization:** Designed geometries to print completely support-less. Slicing parameters adjusted to a minimum of 4 perimeters (wall lines) and 10% infill to maximize printing speed during the prototyping phase.
   * **Calculated Dynamics:** Operating at approx. 1400 RPM on a 2S LiPo configuration with an 8 mm eccentric stroke results in a theoretical velocity of $\approx 0.37 \text{ m/s}$ ($1.34 \text{ km/h}$). This delivers an optimized balance between drivability, mechanical high-torque control, and minimized chassis vibration.
-* **Current Status:** Prototype v3.1 is currently slicing/printing. Next step: physical assembly and hand-testing the 0.3 mm tolerance fitments under simulated motor loads.
-
+    
 ### Iteration 5: Physical Load Testing & Weight Benchmarking (v3.2)
 * **Approach:** Assembled the printed v3.2 components and conducted manual stress-testing to simulate real-world combat loads and structural compression.
 * **Results & Critical Vulnerabilities:**
@@ -46,3 +45,13 @@ instead of traditional wheels. After researching various walking linkages on You
 * **Weight** my focus nr. 1. i massively reduced the weight to 12g. I made the whole shuffler smaller, since i now have an idea, about how big the whole bot should be, i also added airgaps.
 * **Improovements** I implemented deadshafs out of PLA, to correct the problem i had with the previous iteration. I fixed the deadshafs with small m2 screws, who's weight was like 1g.
 * **Speciality** Because i was so desperate to loose weight, i switched from 4 feet to only 3, angeled at 120°. I hope this works well....
+
+### Iteration 7: Clean version of v4 (v5)
+* **Why?** I wanted to change minor things in v4, but since my convention in CAD was so badly made, i firstly couldn't know, which sketch belonged to which part (i named 
+no sketch) and it was not clean made at all. I wanted to have a cleaner version.
+* **Improovement** I made the achsis longer in comparison to the sum of the width of all "shufflefeet". This gives the "feet" some space. I could also further reduce the
+weight to 11g.
+* **Issues** In CAD, 1mm seemed like a lot to me, but my printer doesn't. I relied on a fiew tiny parts, that i could't print. I'm starting to get the feeling, that
+  I want to do something wrong, so i coul'd improove it, but im sick and tired of it!
+* **for the next time:** I pause with the iterations for now. I know, how the mechanism works, it's only a matter of structural stability and weight. I will worry about
+  that, when i built the chasis.
