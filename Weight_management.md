@@ -15,3 +15,5 @@ StepDownConverter;1;1;1
 DRV8833;1;1;1
 
 Current total: 120g
+
+*All parts are weighted at original condition, without shorten wires.*
