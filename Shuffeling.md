@@ -55,3 +55,11 @@ weight to 11g.
   I want to do something wrong, so i coul'd improove it, but im sick and tired of it!
 * **for the next time:** I pause with the iterations for now. I know, how the mechanism works, it's only a matter of structural stability and weight. I will worry about
   that, when i built the chasis.
+
+### Iteration 8: Integration to chasis
+* **What**  I modelled the 8.th iteration, where i tried to only use the least amount of material, 
+to still drive easily and contain stability.
+* **Testing** This version i could actually test in the robot. And after some manual improovements with a knive, 
+it walked like a charm!
+* **Speciality** Since i decided to ditch the  "BBQ-Skewer" approach, i still use the deadshaft, this workes very well.
+I use a Metall 3mm staff, thats just there for stability. Overall, im very satisfied with the result. 

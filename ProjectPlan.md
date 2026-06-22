@@ -25,8 +25,8 @@
 * **Mechanical Safety:** Dedicated physical locking pin (Weapon Lock) for the 45° spinner outside the arena.
 
 ## 4. Modular Dev-Plan (Proof of Concepts)
-* [ ] **PoC 1: Mechanical Linkage Kinematics** (Testing a single leg mechanism for smooth operation, low friction, and grip).
-* [ ] **PoC 2: ELRS Signal Decoding, Failsafe Logic & Arcade Mixing** (C implementation of non-blocking serial reading, linear XY-mixing, and basic input validation on a breadboard).
+* [x] **PoC 1: Mechanical Linkage Kinematics** (Testing a single leg mechanism for smooth operation, low friction, and grip).
+* [x] **PoC 2: ELRS Signal Decoding, Failsafe Logic & Arcade Mixing** (C implementation of non-blocking serial reading, linear XY-mixing, and basic input validation on a breadboard).
 * [ ] **PoC 3: Brushless Weapon Control & Active Brake** (Implementing the 30s stop rule safely via software/ESC).
 * [ ] **PoC 4: Enclosed Power & Electronics Integration** (Power management, voltage regulation, and wiring harness footprint).
 * [ ] **PoC 5: Integration Prototype v1** (Full chassis printed in cheap PLA to verify weight distribution and center of mass).
